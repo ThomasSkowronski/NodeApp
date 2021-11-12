@@ -1,0 +1,21 @@
+extends layout
+
+block layout-content
+  body
+    div(class="container")
+      div(class="row")
+        nav(class="col-sm-2")
+          ul(class="nav nav-pills nav-stacked")
+            li
+              a(href="#section1") Section One
+            li
+              a(href="#section2") Section Two
+            li
+              a(href="#section3") Section Three
+              
+        div(class="col-sm-10")
+          div#section1(class="jumbotron")
+            h1 Thomas Skowronski
+          div.sec section One
+          div#section2.sec section two
+          div#section3.sec section three

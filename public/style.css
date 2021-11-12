@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+ul.nav-pills {
+  top: 20px;
+  position: fixed;
+}
+
+a{
+  color: black;
+  background-color: green;
+}
+
+div.col-sm-10 div.sec {
+  height: 1000px;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 810px) {
+  #section1, #section2, #section3,  {
+    margin-left: 150px;
+  }
+}
