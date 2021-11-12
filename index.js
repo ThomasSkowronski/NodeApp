@@ -24,6 +24,10 @@
    res.render("index", { title: "Home" });
  });
 
+ app.get("/app1", (req, res) => {
+   res.render("app1", { title: "App One" });
+ });
+
  app.get("/user", (req, res) => {
   res.render("user", { title: "Profile", userProfile: { nickname: "Auth0" } });
 });
